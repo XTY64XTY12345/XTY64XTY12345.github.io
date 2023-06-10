@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>XTY网站首页</title>
+    <title>XTY导航网站</title>
     <style>
         body {
             background-color: lightblue;
@@ -11,29 +11,35 @@
             text-align: center;
             font-size: 50px;
         }
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
-        a {
+        li {
+            float: left;
+            width: 25%;
+        }
+        li a {
+            display: block;
             color: white;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
         }
-        div {
-            background-color: white;
-            border: 5px solid black;
-            margin: 20px;
-            padding: 20px;
+        li a:hover {
+            background-color: #111;
         }
     </style>
 </head>
 <body>
     <h1>XTY</h1>
-    <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logo_Bing.svg/1200px-Logo_Bing.svg.png" alt="Bing logo">
-        <p style="text-align: center;">欢迎来到XTY的网站，这里有很多有趣的内容，你可以<a href="https://www.bing.com">点击这里</a>了解更多。</p>
-    </div>
+    <ul>
+        <li><a href="https://github.com/XTY64XTY12345/XTY64XTY12345.github.io">GitHub</a></li>
+        <li><a href="https://www.40code.com/#page=user&id=1603">40code</a></li>
+        <li><a href="https://space.bilibili.com/1208834427">Bilibili</a></li>
+        <li><a href="https://www.ccw.site/student/621189844daafc57cebf44fc">CCW</a></li>
+    </ul>
 </body>
 </html>

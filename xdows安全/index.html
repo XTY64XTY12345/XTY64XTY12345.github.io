@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta itemprop="name" content="xdows安全，你的全新杀毒软件">
+    <meta name="keywords" content="xdows安全，你的全新杀毒软件" />
+    <meta name="description" content="xdows安全，你的全新杀毒软件" />
+    <!--分享卡标题预埋meta-->
+    <meta name="description" itemprop="description" content="xdows安全，你的全新杀毒软件" />
+    <!--分享卡描述预埋meta-->
+    <!--分享卡图片URL预埋meta-->
+    <title>xdows安全</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+  
+</head>
+
+<body>
+    <div class="video-bg">
+        <img src="./img/index-bg1.png" alt="" class="bg-img">
+        <div class="banner1-info new">
+            <div class="wording">
+                <div class="move-title">xdows安全<br>你的全新杀毒软件</div>
+                <div class="move-desc">支持清理加速、病毒查杀、工具箱等功能。</div>
+                <div class="move-down">
+                    <a href="./download.html" class="move-down-a" onClick="tcssReport('tim.index.downbtn');">
+                        <span>立即下载</span>
+                        <span>立即下载</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="h-inner">
+            <h1 class="logo">
+                <a href="./index.html"></a>
+                <!-- <img src="./img/logo.png" alt="xdows安全”> -->
+            </h1>
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-item"><a href="./index.html" class="active">首页</a></li>
+                    <li class="nav-item"><a href="./download.html">下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="function">
+        <div class="func-inner clear">
+            <div class="func-item">
+                <div class="func-logo1"></div>
+                <div class="func-title">快速反馈</div>
+                <div class="func-desc">进入QQ群反馈Bug，通常会在一周内修复Bug。</div>
+            </div>
+            <div class="func-item">
+                <div class="func-logo2"></div>
+                <div class="func-title">云端杀毒</div>
+                <div class="func-desc">支持在国内两个服务器中查杀病毒，让你的电脑更加安全。</div>
+            </div>
+            <div class="func-item">
+                <div class="func-logo3"></div>
+                <div class="func-title">丰富工具</div>
+                <div class="func-desc">工具箱带有进程管理等工具，更加规范的管理你的电脑。</div>
+            </div>
+        </div>
+    </div>
+    <div class="doc bottom-right" style="position:relative">
+        <div class="doc-inner">
+            <div class="second-title">一键加速</div>
+            <div class="second-desc">一键释放内存，让电脑更加流畅。</div>
+        </div>
+        <div class="doc-bg doc1">
+            <img src="./img/yun.png" alt="" id="yun">
+        </div>
+        <span class="bottom-line"></span>
+    </div>
+    <div class="doc top-right" style="position:relative;">
+        <div class="doc-inner">
+            <!-- <div class="second-logo"></div> -->
+            <div class="second-title">病毒库云端同步</div>
+            <div class="second-desc">自动更新病毒库，随时防范病毒。</div>
+        </div>
+        <div class="doc-bg doc2">
+            <img src="./img/zaixian.png" alt="" id="document">
+        </div>
+    </div>
+    <div class="doc top-left" style="position:relative;">
+        <div class="doc-inner">
+            <div class="second-title">进程管理</div>
+            <div class="second-desc">同步系统进程，终止进程，还可查看PID。</div>
+        </div>
+        <div class="doc-bg doc3">
+            <!-- <div class="date-mobile-msg"></div>
+            <div class="date-pc-msg"></div> -->
+            <img src="./img/xiaoxi.png" alt="" id="msg">
+            <img src="" alt="" id="date-manage">
+        </div>
+        <span class="bottom-line"></span>
+    </div>
+
+    </div>
+    <div class="footer">
+        <p>反馈群：749412281</p>
+        <p class="copy-right">Copyright © 2020-<script>document.write(new Date().getFullYear())</script> XTY64XTY. All Rights Reserved.  版权所有</p>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bj-report-tryjs.min.js"></script>
+    <script src="./js/swiper-3.4.2.jquery.min.js"></script>
+    <script>
+        window.tcssReport = function(hottag, domain) { /*点击流上报*/
+            if (typeof pgvSendClick == 'function') {
+                pgvSendClick({
+                    virtualDomain: domain || "tim.qq.com",
+                    hottag: hottag
+                });
+            }
+        };
+        tcssReport('tim.index.pv')
+
+        // var zaixianwendang = $('#zaixianwendang').offset().top
+        var dateManage = $('#date-manage').offset().top
+        var msg = $('#msg').offset().top
+        var yun = $('#yun').offset().top
+        var pdocument = $('#document').offset().top
+        var windowHeight = $(window).height()
+            // 页面滚动触发播放事件
+        function pageScroll() {
+            var documentScrollTop = $(document).scrollTop()
+
+            if (documentScrollTop > 10) {
+                $('.header').addClass('scrollTop')
+            } else {
+                $('.header').removeClass('scrollTop')
+            }
+            if (documentScrollTop > pdocument - windowHeight / 2 - 300) {
+                $('#document').addClass('moveUp')
+            }
+            if (documentScrollTop > dateManage - windowHeight / 2 - 300) {
+                $('#date-manage').addClass('moveUp')
+            }
+            if (documentScrollTop > msg - windowHeight / 2 - 300) {
+                $('#msg').addClass('moveUp')
+            }
+            if (documentScrollTop > yun - windowHeight / 2 - 300) {
+                $('#yun').addClass('moveUp')
+            }
+        }
+        $(document).scroll(pageScroll)
+        initVideoPosition()
+
+        function initVideoPosition() {
+            var w = 2560,
+                h = 997,
+                ml = 1298,
+                mb = 126,
+                mw = 180,
+                mh = 319,
+                pl = 1519,
+                pb = 264,
+                pw = 626,
+                ph = 501,
+                nw = (document.body.clientWidth).toFixed(9),
+                nh = (nw * h / w).toFixed(9),
+                mlp = (ml / w).toFixed(9),
+                mbp = (mb / h).toFixed(9),
+                mwp = (mw / w).toFixed(9),
+                mhp = (mh / h).toFixed(9),
+                mlnpx = nw * mlp,
+                mbnpx = nh * mbp,
+                mwnpx = nw * mwp,
+                mhnpx = nh * mhp,
+
+
+                plp = (pl / w).toFixed(9),
+                pbp = (pb / h).toFixed(9),
+                pwp = (pw / w).toFixed(9),
+                php = (ph / h).toFixed(9),
+                plnpx = nw * plp,
+                pbnpx = nh * pbp,
+                pwnpx = nw * pwp,
+                phnpx = nh * php
+            $('.video-mob').css({
+                bottom: mbnpx + 'px',
+                left: mlnpx + 'px',
+                width: mwnpx + 'px',
+                height: mhnpx + 'px'
+            })
+            $('.video-pc').css({
+                bottom: pbnpx + 'px',
+                left: plnpx + 'px',
+                width: pwnpx + 'px',
+                height: phnpx + 'px'
+            })
+
+        }
+        setTimeout(function() {
+            document.getElementById('mob').play()
+            document.getElementById('pc').play()
+        }, 2000)
+        $('.wording').addClass('show')
+        window.onresize = function() {
+            initVideoPosition()
+        }
+        document.getElementById('mob').onended = function() {
+            var _this = this;
+            var ender = setTimeout(function() {
+                _this.play()
+                clearTimeout(ender)
+            }, 2000)
+        }
+        document.getElementById('pc').onended = function() {
+            var _this = this;
+            var ender = setTimeout(function() {
+                _this.play()
+                clearTimeout(ender)
+            }, 2000)
+        }
+        document.onmouseenter = function() {
+            return false;
+        }
+        document.onmousemove = function() {
+            return false;
+        }
+        document.oncontextmenu = function() {
+            return false;
+        }
+    </script>
+<style>
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>
+</body>
+
+</html>

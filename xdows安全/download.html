@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta itemprop="name" content="xdows安全，你的全新杀毒软件">
+    <meta name="keywords" content="xdows安全，你的全新杀毒软件" />
+    <meta name="description" content="xdows安全，你的全新杀毒软件" />
+    <!--分享卡标题预埋meta-->
+    <meta name="description" itemprop="description" content="xdows安全，你的全新杀毒软件" />
+    <!--分享卡描述预埋meta-->
+    <!--分享卡图片URL预埋meta-->
+    <title>xdows安全-下载</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/download.css">
+</head>
+
+<body>
+    <div class="header scrollTop">
+        <div class="h-inner">
+            <h1 class="logo">
+                <a href="./index.html"></a>
+            </h1>
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-item"><a href="./index.html">首页</a></li>
+                    <li class="nav-item"><a href="./download.html" class="active">下载</a></li>
+                    <!-- <li class="nav-item"><a href="">用户故事</a></li> -->
+                    <li class="nav-item"><a href="./support.html">支持</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="d-content">
+        <div class="a-download clear">
+            <div class="down-ietm windows">
+                <div class="down-ietm-inner">
+                    <div class="logo-area">
+                        <div class="itemlogo"></div>
+                    </div>
+                    <div class="info-area">
+                        <div class="d-item-title">Windows版</div>
+                        <div class="d-item-desc">版本2.0.0 <span class="update-time"></span></div>
+                        <div class="down-btn"><a href="https://qm.qq.com/cgi-bin/qm/qr?k=LgL9znlMnq7MiZTHZLMSEc4NNP994pc_&jump_from=webapi&authKey=fsMlx48PgTWRGVPtv5TBzBRJb1+w4l+1mKUcJc23JWUuUqClv1EuSZMtl6Q1pII9" onClick="tcssReport('tim.downloads.windows');">下载</a></div>
+                        <div class="d-item-log"><a href="./support.html">更新日志</a></div>
+                    </div>
+                </div>
+            </div>         
+            </div>
+        </div>
+    </div>
+    <div class="footer d-page">
+        <p>反馈群：749412281</p>
+        <p class="copy-right">Copyright © 2020-<script>document.write(new Date().getFullYear())</script> XTY64XTY. All Rights Reserved.  版权所有</p>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bj-report-tryjs.min.js"></script>
+    <script>
+        window.tcssReport = function(hottag, domain) { /*点击流上报*/
+            if (typeof pgvSendClick == 'function') {
+                pgvSendClick({
+                    virtualDomain: domain || "tim.qq.com",
+                    hottag: hottag
+                });
+            }
+        };
+        tcssReport('tim.downloads.pv')
+            // 不同下载hover效果
+        $('.down-ietm').hover(function() {
+            $(this).addClass('hover')
+            $(this).find('.itemlogo').addClass('animation')
+        }, function() {
+            $(this).removeClass('hover')
+            $(this).find('.itemlogo').removeClass('animation')
+        })
+
+        function initFooter() {
+            var footerTop = $('.footer').offset().top
+            var wh = $(window).height()
+            var fh = $('.footer').height()
+            if (footerTop < wh - fh) {
+                $('.footer').addClass('fixed')
+            }
+        }
+        initFooter()
+    </script>
+
+
+</body>
+
+</html>

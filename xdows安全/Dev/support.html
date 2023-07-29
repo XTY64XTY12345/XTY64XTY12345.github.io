@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta itemprop="name" content="xdows安全，你的全新杀毒软件">
+    <meta name="keywords" content="xdows安全，你的全新杀毒软件" />
+    <meta name="description" content="xdows安全，你的全新杀毒软件" />
+    <!--分享卡标题预埋meta-->
+    <meta name="description" itemprop="description" content="xdows安全，你的全新杀毒软件" />
+    <!--分享卡描述预埋meta-->
+    <!--分享卡图片URL预埋meta-->
+    <link rel="shortcut icon" href="./img/1-512.ico" >
+    <title>xdows安全-支持</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/download.css">
+</head>
+
+<body>
+    <div class="header scrollTop">
+        <div class="h-inner">
+            <h1 class="logo">
+                <a href="./index.html"></a>
+            </h1>
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-item"><a href="./../../index.html">返回</a></li>
+                    <li class="nav-item"><a href="./../index.html">首页</a></li>
+                    <li class="nav-item"><a href="./../download.html" class="active">下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="d-content">
+        <div class="a-download clear">
+            <div class="down-ietm windows">
+                <div class="down-ietm-inner">
+                    <div class="logo-area">
+                        <div class="itemlogo"></div>
+                    </div>
+                    <div class="info-area">
+                        <div class="d-item-title">2.0-2.99版本</div>
+                        <div class="d-item-desc">终止日期2024年7月14日<span class="update-time"></span></div>
+                    </div>
+                </div>
+            </div>     
+            <div class="down-ietm windows">
+                <div class="down-ietm-inner">
+                    <div class="logo-area">
+                        <div class="itemlogo"></div>
+                    </div>
+                    <div class="info-area">
+                        <div class="d-item-title">>1.0-1.53版本</div>
+                        <div class="d-item-desc">终止日期2023年7月28日 <span class="update-time"></span></div>
+                    </div>
+                </div>
+            </div>  
+            </div>
+        </div>
+        <div class="footer d-page">
+        <h1>终止支持意味着什么</h1>
+        <h2>1、相关网页会无法访问</h2>
+        <h2>2、无法反馈问题</h2>
+        <h2>3、可能扫描服务器已经下线</h2>
+        <h1>我可以干什么</h1>
+        <h2>1、更新至新版本（推荐）</h2>
+        <h2>2、手动设置防护（不推荐）</h2>
+    </div>
+    </div>
+
+    <div class="footer d-page">
+        <p>反馈群：749412281</p>
+        <p class="copy-right">Copyright © 2020-<script>document.write(new Date().getFullYear())</script> XTY64XTY. All Rights Reserved.  版权所有</p>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bj-report-tryjs.min.js"></script>
+    <script>
+        window.tcssReport = function(hottag, domain) { /*点击流上报*/
+            if (typeof pgvSendClick == 'function') {
+                pgvSendClick({
+                    virtualDomain: domain || "tim.qq.com",
+                    hottag: hottag
+                });
+            }
+        };
+        tcssReport('tim.downloads.pv')
+            // 不同下载hover效果
+        $('.down-ietm').hover(function() {
+            $(this).addClass('hover')
+            $(this).find('.itemlogo').addClass('animation')
+        }, function() {
+            $(this).removeClass('hover')
+            $(this).find('.itemlogo').removeClass('animation')
+        })
+
+        function initFooter() {
+            var footerTop = $('.footer').offset().top
+            var wh = $(window).height()
+            var fh = $('.footer').height()
+            if (footerTop < wh - fh) {
+                $('.footer').addClass('fixed')
+            }
+        }
+        initFooter()
+    </script>
+
+
+</body>
+
+</html>

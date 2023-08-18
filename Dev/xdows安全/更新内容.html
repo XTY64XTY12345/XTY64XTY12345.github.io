@@ -1,11 +1,13 @@
-<button onclick="myFunction()">获取更新日志</button>
+<div style="display: flex; justify-content: center;">
+  <button onclick="myFunction()">获取更新日志</button>
+</div>
 <p id="demo"></p>
 <script>
 function myFunction(){
 	var x;
 	var r=confirm("获取更新日志错误。检测到是因为版本过低，是否立即更新");
 	if (r==true){
-    window.open("./../../xdows安全/download.html", "_blank");
+  window.open("./../../xdows安全/download.html", "_blank");
 		x="";
 	}
 	else{
@@ -14,3 +16,4 @@ function myFunction(){
 	document.getElementById("demo").innerHTML=x;
 }
 </script>
+

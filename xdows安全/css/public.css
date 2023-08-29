@@ -1,8 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* font-family: 'Microsoft YaHei' */
-    font-family: '华康方圆体W7',"Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif
+    font-family: '华康方圆体W7', sans-serif
 }
 
 html,

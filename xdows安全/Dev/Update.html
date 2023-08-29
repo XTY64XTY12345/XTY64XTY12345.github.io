@@ -23,33 +23,6 @@
       margin-bottom: 5px; /* 添加列表项下边距 */
     }
   </style>
-  <script>
-    // 定义一个函数，用于切换列表的显示状态
-    function toggleList(event) {
-      // 获取当前点击的标题元素
-      var h3 = event.target;
-      // 获取标题元素的下一个兄弟元素，即列表元素
-      var ul = h3.nextElementSibling;
-      // 判断列表元素的显示状态，如果是none，则改为block，否则改为none
-      if (ul.style.display == "none") {
-        ul.style.display = "block";
-      } else {
-        ul.style.display = "none";
-      }
-    }
-    // 定义一个函数，用于为所有的标题元素添加点击事件监听器
-    function addListeners() {
-      // 获取所有的标题元素
-      var h3s = document.getElementsByTagName("h3");
-      // 遍历所有的标题元素
-      for (var i = 0; i < h3s.length; i++) {
-        // 为每个标题元素添加点击事件监听器，调用toggleList函数
-        h3s[i].addEventListener("click", toggleList);
-      }
-    }
-    // 在页面加载完成后，调用addListeners函数
-    window.onload = addListeners;
-  </script>
 </head>
 
 

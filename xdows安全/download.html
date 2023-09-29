@@ -41,7 +41,25 @@
                     </div>
                     <div class="info-area">
                         <div class="d-item-title">最新版本</div>
-                        <div class="d-item-desc">版本2.0.2 <span class="update-time"></span></div>
+                        <div class="d-item-desc">
+                            版本+获取XTY64XTY12345/XTY64XTY12345.github.io网页的标题
+                        </div>
+
+                    <script>
+                          function getTitle(){
+                          var xhr = new XMLHttpRequest();
+                          xhr.open('GET', 'https://xty64xty12345.github.io/', true);
+                          xhr.onload = function() {
+                          if (this.status === 200) {
+                          var title = document.querySelector(".d-item-desc");
+                          title.innerHTML = "版本"+xhr.responseXML.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+                          }
+                          };
+                          xhr.send();
+                        }
+
+                        getTitle();
+                        </script>
                         <div class="down-btn"><a href="https://www.123pan.com/s/1y1qVv-Vs0Y.html" onClick="tcssReport('tim.downloads.windows');">下载</a></div>
                     </div>
                 </div>

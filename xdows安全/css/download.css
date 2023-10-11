@@ -57,32 +57,32 @@ body {
 }
 
 .windows .itemlogo {
-    background: url(../img/windows.png) no-repeat center 80px;
+    background: url(../../img/windows.png) no-repeat center 80px;
     background-size: auto 114px;
 }
 
 .iphone .itemlogo {
-    background: url(../img/iphone.png) no-repeat center 80px;
+    background: url(../../img/iphone.png) no-repeat center 80px;
     background-size: auto 114px;
 }
 
 .android .itemlogo {
-    background: url(../img/android.png) no-repeat center 80px;
+    background: url(../../img/android.png) no-repeat center 80px;
     background-size: auto 114px;
 }
 
 .windows.hover .itemlogo {
-    background: url(../img/windows-hover.png) no-repeat center 80px;
+    background: url(../../img/windows-hover.png) no-repeat center 80px;
     background-size: auto 114px;
 }
 
 .iphone.hover .itemlogo {
-    background: url(../img/iphone-hover2x.png) no-repeat center 80px;
+    background: url(../../img/iphone-hover2x.png) no-repeat center 80px;
     background-size: auto 114px;
 }
 
 .android.hover .itemlogo {
-    background: url(../img/android-hover2x.png) no-repeat center 80px;
+    background: url(../../img/android-hover2x.png) no-repeat center 80px;
     background-size: auto 114px;
 }
 

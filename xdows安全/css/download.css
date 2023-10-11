@@ -24,17 +24,17 @@ body {
 }
 
 .down-ietm.windows.hover {
-    background: url(../img/01.png) no-repeat center 0;
+    background: url(../../img/01.png) no-repeat center 0;
     background-size: cover
 }
 
 .down-ietm.iphone.hover {
-    background: url(../img/02.png) no-repeat center 0;
+    background: url(../../img/02.png) no-repeat center 0;
     background-size: cover
 }
 
 .down-ietm.android.hover {
-    background: url(../img/03.png) no-repeat center 0;
+    background: url(../../img/03.png) no-repeat center 0;
     background-size: cover
 }
 
@@ -244,12 +244,12 @@ body {
 
 @media screen and (resolution: 2dppx) {
     .iphone.hover .itemlogo {
-        background: url(../img/iphone-hover2x.png) no-repeat center 80px;
+        background: url(../../img/iphone-hover2x.png) no-repeat center 80px;
         background-size: auto 140px;
         height: 140px;
     }
     .android.hover .itemlogo {
-        background: url(../img/android-hover2x.png) no-repeat center 80px;
+        background: url(../../img/android-hover2x.png) no-repeat center 80px;
         background-size: auto 140px;
         height: 140px
     }
@@ -260,27 +260,27 @@ body {
         transform: scale(0.9, 0.9)
     }
     .windows .itemlogo {
-        background: url(../img/windows.png) no-repeat center 60px;
+        background: url(../../img/windows.png) no-repeat center 60px;
         background-size: auto 100px;
     }
     .iphone .itemlogo {
-        background: url(../img/iphone.png) no-repeat center 60px;
+        background: url(../../img/iphone.png) no-repeat center 60px;
         background-size: auto 100px;
     }
     .android .itemlogo {
-        background: url(../img/android.png) no-repeat center 60px;
+        background: url(../../img/android.png) no-repeat center 60px;
         background-size: auto 100px;
     }
     .windows.hover .itemlogo {
-        background: url(../img/windows-hover.png) no-repeat center 60px;
+        background: url(../../img/windows-hover.png) no-repeat center 60px;
         background-size: auto 100px;
     }
     .iphone.hover .itemlogo {
-        background: url(../img/iphone-hover2x.png) no-repeat center 60px;
+        background: url(../../img/iphone-hover2x.png) no-repeat center 60px;
         background-size: auto 100px;
     }
     .android.hover .itemlogo {
-        background: url(../img/android-hover2x.png) no-repeat center 60px;
+        background: url(../../img/android-hover2x.png) no-repeat center 60px;
         background-size: auto 100px;
     }
     .itemlogo {
@@ -308,27 +308,27 @@ body {
         transform: scale(0.95, 0.95)
     }
     .windows .itemlogo {
-        background: url(../img/windows.png) no-repeat center 60px;
+        background: url(../../img/windows.png) no-repeat center 60px;
         background-size: auto 114px;
     }
     .iphone .itemlogo {
-        background: url(../img/iphone.png) no-repeat center 60px;
+        background: url(../../img/iphone.png) no-repeat center 60px;
         background-size: auto 114px;
     }
     .android .itemlogo {
-        background: url(../img/android.png) no-repeat center 60px;
+        background: url(../../img/android.png) no-repeat center 60px;
         background-size: auto 114px;
     }
     .windows.hover .itemlogo {
-        background: url(../img/windows-hover.png) no-repeat center 60px;
+        background: url(../../img/windows-hover.png) no-repeat center 60px;
         background-size: auto 114px;
     }
     .iphone.hover .itemlogo {
-        background: url(../img/iphone-hover2x.png) no-repeat center 60px;
+        background: url(../../img/iphone-hover2x.png) no-repeat center 60px;
         background-size: auto 114px;
     }
     .android.hover .itemlogo {
-        background: url(../img/android-hover2x.png) no-repeat center 60px;
+        background: url(../../img/android-hover2x.png) no-repeat center 60px;
         background-size: auto 114px;
     }
     .itemlogo {

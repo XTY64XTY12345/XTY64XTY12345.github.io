@@ -57,7 +57,7 @@ body {
 }
 
 .windows .itemlogo {
-    background: url(//qd.myapp.com/myapp/qqteam/TIM_WEB/img/TIM_PC/windows.png) no-repeat center 80px;
+    background: .\img\Windows.png no-repeat center 80px;
     background-size: auto 114px;
 }
 
@@ -277,7 +277,7 @@ body {
         transform: scale(0.9, 0.9)
     }
     .windows .itemlogo {
-        background: url(//qd.myapp.com/myapp/qqteam/TIM_WEB/img/TIM_PC/windows.png) no-repeat center 60px;
+        background: .\img\Windows.png no-repeat center 60px;
         background-size: auto 100px;
     }
     .iphone .itemlogo {
@@ -325,7 +325,7 @@ body {
         transform: scale(0.95, 0.95)
     }
     .windows .itemlogo {
-        background: url(//qd.myapp.com/myapp/qqteam/TIM_WEB/img/TIM_PC/windows.png) no-repeat center 60px;
+        background: .\img\Windows.png no-repeat center 60px;
         background-size: auto 114px;
     }
     .iphone .itemlogo {

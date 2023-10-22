@@ -12,7 +12,11 @@ body {
 body {
     background-color: #f5f5f5
 }
-
+.gradient1 span {
+  background: linear-gradient(to right, #0059f1, #009ffe);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 .fl {
     float: left;
 }

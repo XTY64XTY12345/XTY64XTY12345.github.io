@@ -1,5 +1,20 @@
-<p>作者：XTY64XTY</p>
-<p>Q群：749412281</p>
-<p>网站：xty64xty12345.github.io/</p>
 <p>此软件归XTY64XTY所有。</p>
 <p>部分代码参考PYAS的代码。</p>
+<div style="display: flex; justify-content: center;">
+  <button onclick="myFunction()">查看更多信息</button>
+</div>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var r=confirm("获取信息错误。检测到是因为版本过低，是否立即更新");
+	if (r==true){
+  window.open("./../../xdows安全/download.html", "_blank");
+		x="";
+	}
+	else{
+		x="";
+	}
+	document.getElementById("demo").innerHTML=x;
+}
+</script>

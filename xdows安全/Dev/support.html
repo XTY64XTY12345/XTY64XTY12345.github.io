@@ -113,25 +113,17 @@
                 });
             }
         };
-        tcssReport('tim.downloads.pv')
-            // 不同下载hover效果
-        $('.down-ietm').hover(function() {
-            $(this).addClass('hover')
-            $(this).find('.itemlogo').addClass('animation')
-        }, function() {
-            $(this).removeClass('hover')
-            $(this).find('.itemlogo').removeClass('animation')
+        tcssReport('tim.support.pv')
+        $('.history-version-item-title').click(function() {
+            $(this).parent('.history-version-item').find('.history-version-item-content').slideToggle('fast')
+            $(this).parent('.history-version-item').find('.clickup').toggleClass('show')
+            $(this).toggleClass('show')
         })
-
-        function initFooter() {
-            var footerTop = $('.footer').offset().top
-            var wh = $(window).height()
-            var fh = $('.footer').height()
-            if (footerTop < wh - fh) {
-                $('.footer').addClass('fixed')
-            }
-        }
-        initFooter()
+        $('.clickup').click(function() {
+            $(this).parent('.history-version-item').find('.history-version-item-content').slideToggle('fast')
+            $(this).parent('.history-version-item').find('.clickup').toggleClass('show')
+            $(this).parent('.history-version-item').find('.history-version-item-title').toggleClass('show')
+        })
     </script>
 
 

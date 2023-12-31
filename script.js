@@ -4,8 +4,7 @@
 
       if (!currentUrl.includes('netlify.app')) {
         var urlParts = new URL(currentUrl);
-        var newPath = urlParts.pathname + urlParts.search + urlParts.hash;
-        var newUrl = baseUrl + newPath;
+        var newUrl = baseUrl + location.pathname;
 
         // 重定向到新 URL
         window.location.href = newUrl;

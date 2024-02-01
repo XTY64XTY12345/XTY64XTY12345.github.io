@@ -147,6 +147,7 @@ table {
     height: 50px;
     padding: 0 16px;
     border-bottom: 4px solid transparent
+backdrop-filter: blur(50px);
 }
 
 .nav-item .active {

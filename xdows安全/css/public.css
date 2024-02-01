@@ -121,7 +121,6 @@ table {
 .nav a {
     /* color: #777777 */
     color: fff
-backdrop-filter: blur(50px);
 }
 
 .scrollTop .nav a {
@@ -138,6 +137,7 @@ backdrop-filter: blur(50px);
     padding: 0 38px;
     display: inline-block;
     height: 54px;
+backdrop-filter: blur(50px);
 }
 
 .nav-item a {

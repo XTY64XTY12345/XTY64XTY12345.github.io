@@ -152,7 +152,6 @@ table {
 
 .nav-item .active {
     border-bottom-color: #f5f5f5
-backdrop-filter: blur(50px);
 }
 
 .nav-item a:hover {

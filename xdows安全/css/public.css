@@ -137,7 +137,7 @@ table {
     padding: 0 38px;
     display: inline-block;
     height: 54px;
-backdrop-filter: blur(50px);
+
 }
 
 .nav-item a {

@@ -120,8 +120,8 @@ table {
 
 .nav a {
     /* color: #777777 */
-    color: #fff
-filter: blur(10px);
+    color: fff
+backdrop-filter: blur(50px);
 }
 
 .scrollTop .nav a {

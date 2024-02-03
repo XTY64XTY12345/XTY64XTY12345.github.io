@@ -125,7 +125,6 @@ table {
 
 .scrollTop .nav a {
     color: #333
-    backdrop-filter: blur(6px);
 }
 
 .nav-ul {

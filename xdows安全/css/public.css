@@ -116,7 +116,6 @@ table {
     height: 54px;
     /* overflow: hidden; */
     font-size: 24px;
-    backdrop-filter: blur(6px);
 }
 
 .nav a {
@@ -126,6 +125,7 @@ table {
 
 .scrollTop .nav a {
     color: #333
+    backdrop-filter: blur(6px);
 }
 
 .nav-ul {

@@ -120,7 +120,7 @@ table {
 
 .nav a {
     /* color: #777777 */
-    color: fff
+    color: #fff
 }
 
 .scrollTop .nav a {
@@ -137,7 +137,6 @@ table {
     padding: 0 38px;
     display: inline-block;
     height: 54px;
-    color: fff
 }
 
 .nav-item a {
@@ -147,7 +146,6 @@ table {
     height: 50px;
     padding: 0 16px;
     border-bottom: 4px solid transparent
-
 }
 
 .nav-item .active {
@@ -173,6 +171,7 @@ table {
     /* color: #0188fb */
     background-color: rgba(0, 0, 0, 0.06)
 }
+
 
 .video-bg img {
     width: 100%;

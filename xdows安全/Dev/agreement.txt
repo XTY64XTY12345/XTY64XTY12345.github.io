@@ -11,7 +11,7 @@ Xdows Software使用协议（更新时间：2024/02/19）
 6、xdows 产品的解释权和所有权归XTY64XTY团队所有。
 7、禁止在未经允许的情况下使用工具“注入” xdows 产品的程序。
 8、禁止在未经允许的情况下使用工具“抓包” xdows 产品的程序。
-9、 xdows 产品测试机器配置如下：
+9、xdows 产品测试机器配置如下：
 	CPU：Intel(R) Pentium(R) CPU G3260 @ 3.30GHz
 	内存：16GB
 	系统：Windows 11

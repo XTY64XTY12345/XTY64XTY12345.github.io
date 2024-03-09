@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="./../script.js"></script>
+
+    
 </head>
 
 <body>
@@ -111,7 +113,16 @@
         </div>
         <span class="bottom-line"></span>
     </div>
-
+    <div class="doc top-right" style="position:relative;">
+        <div class="doc-inner">
+            <!-- <div class="second-logo"></div> -->
+            <div class="second-title">对比其他自制杀软</div>
+            <div class="second-desc">支持使用多达3个扫描引擎。</div>
+        </div>
+        <div class="doc-bg doc2">
+            <div id="container" ></div>
+        </div>
+    </div>
     </div>
     <div class="footer">
         <p>反馈群：749412281</p>
@@ -120,6 +131,8 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bj-report-tryjs.min.js"></script>
     <script src="./js/swiper-3.4.2.jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
     <script>
         window.tcssReport = function(hottag, domain) { /*点击流上报*/
             if (typeof pgvSendClick == 'function') {
@@ -239,6 +252,75 @@
             return false;
         }
     </script>
+<script language="JavaScript">
+$(document).ready(function() {  
+   var chart = {
+      type: 'bar'
+   };
+   var title = {
+      text: ''   
+   };
+   var subtitle = {
+      text: ''  
+   };
+   var xAxis = {
+      categories: ['我们', '西格安全', '小玮安全', 'WAG杀软'],
+      title: {
+         text: null
+      }
+   };
+   var yAxis = {
+      min: 0,
+      title: {
+         text: '单位：%',
+         align: 'high'
+      },
+      labels: {
+         overflow: 'justify'
+      }
+   };
+   var tooltip = {
+      valueSuffix: ' %'
+   };
+   var plotOptions = {
+      bar: {
+         dataLabels: {
+            enabled: true
+         }
+      }
+   };
+
+   var credits = {
+      enabled: false
+   };
+   
+   var series= [{
+         name: '常见病毒样本包',
+            data: [81.2, 78.8, 79.6, 80.3]
+        }, {
+            name: '未知病毒样本包',
+            data: [23.3, 21.1, 20.3, 28.3]
+        }, {
+            name: '脚本病毒样本',
+            data: [90, 90, 30, 40]      
+	    }
+   ];     
+      
+   var json = {};   
+   json.chart = chart; 
+   json.title = title;   
+   json.subtitle = subtitle; 
+   json.tooltip = tooltip;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;  
+   json.series = series;
+   json.plotOptions = plotOptions;
+  
+   json.credits = credits;
+   $('#container').highcharts(json);
+  
+});
+</script>
 <style>
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 </style>

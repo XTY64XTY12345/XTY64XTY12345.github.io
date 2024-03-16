@@ -270,7 +270,6 @@ section header {
   display: block;
   padding-left: 10px;
   color: #656565;
-  font-family: "Open Sans", sans-serif;
 }
 
 #signupform input {
@@ -1469,7 +1468,6 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;

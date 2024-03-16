@@ -9,15 +9,21 @@
 <url>
  <loc>https://xty64xty.netlify.app/xdows安全</loc>
  <priority>0.3</priority>
- <lastmod>2023-11-04</lastmod>
+ <lastmod>2024-1-04</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
 <url>
  <loc>https://xty64xty.netlify.app</loc>
  <priority>0.3</priority>
- <lastmod>2023-11-04</lastmod>
+ <lastmod>2024-1-04</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 
+<url>
+ <loc>https://xty64xty.netlify.app/Winget-Plus</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-1-04</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
 </urlset>

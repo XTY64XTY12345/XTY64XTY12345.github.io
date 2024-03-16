@@ -287,7 +287,6 @@ section header {
 }
 
 #signupform input::-moz-placeholder {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #aaa;
   font-style: italic;
@@ -295,7 +294,6 @@ section header {
 }
 
 #signupform input::-webkit-input-placeholder {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #aaa;
   font-style: italic;
@@ -303,7 +301,6 @@ section header {
 }
 
 #signupform input:-ms-input-placeholder {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #aaa;
   font-style: italic;
@@ -639,21 +636,17 @@ section.newsletter .form-group input {
   background: none;
   outline: none;
   padding: 0 30px;
-  font-family: "Open Sans", sans-serif;
 }
 
 section.newsletter .form-group input::-moz-placeholder {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
 section.newsletter .form-group input::-webkit-input-placeholder {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
 section.newsletter .form-group input:-ms-input-placeholder {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 

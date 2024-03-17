@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>2.07</title>
+    <link rel="shortcut icon" href="./../img/logo.ico" >
+    <link rel="stylesheet" href="./../css/public.css">
+    <link rel="stylesheet" href="./../css/support.css">
+    <script src="./../../script.js"></script>
+</head>
+
+<body>
+
+        <div class="version-list">
+
+            <div class="version-item newest">
+                <div class="newversion">最新版本 3.00[项目重置]</div>
+                <div class="newfunc">
+                    <div class="newfunc">
+                    <div class="newversion">3.00</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">UI大改</div>
+                    <div class="newfunc-list">注册表防御模块独立</div>
+                    <div class="newfunc-list">MBR 防御模块独立</div>
+                    <div class="newfunc-title">“模块删除计划”更新：</div>
+                    <div class="newfunc-list">删除垃圾清理模块</div>
+                    <div class="newfunc-list">删除文件粉碎模块</div>
+                    <div class="newfunc-list">删除自定义主题色模块</div>
+                    <div class="newfunc-list">删除反馈模块（后面会加）</div>
+                    <div class="newfunc-list">删除CPU占用检测模块</div>
+                    <div class="newfunc-list">删除深色主题</div>
+                    <div class="newfunc-list">删除更新模块</div>
+                    <div class="newfunc-list">删除多语言模块</div>
+                    <div class="newfunc-list">删除开机自启动模块</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">未安装易语言用户主程序会发出弹窗提示关键库损坏（未修复）</div>
+                    <div class="newfunc-list">部分用户主程序无法运行（未修复）</div>
+                    <div class="newfunc-list">其他问题（已修复）</div>
+                </div>
+            </div>
+            <div class="history-version">
+                <div class="history-version-title">其它版本</div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">3.01版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                    <div class="newversion">3.01</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">关于菜单使用列表框</div>
+                    <div class="newfunc-list">关于菜单增加反馈链接</div>
+                    <div class="newfunc-list">功能菜单增加建议链接</div>
+                    <div class="newfunc-list">修改UI</div>
+                    <div class="newfunc-list">增加深色模式</div>
+                    <div class="newfunc-list">窗口内容区增加圆角</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">已知问题（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.08版本[因误操作文件被删除]<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                    <div class="newversion">2.08</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">优化本地库扫描速度</div>
+                    <div class="newfunc-list">更新“更新日志”网址</div>
+                    <div class="newfunc-list">全新反馈页面</div>
+                    <div class="newfunc-list">可设置是否开机自启动</div>
+                    <div class="newfunc-list">去除愚人节彩蛋</div>
+                    <div class="newfunc-list">优化部分细节</div>
+                    <div class="newfunc-list">更新部分UI界面</div>
+                    <div class="newfunc-list">全新工具页面（仅部分测试）</div>
+                    <div class="newfunc-list">全新打开配置页面（仅部分测试）</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">已知问题（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.07版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                    <div class="newversion">2.07</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">优化本地库扫描速度</div>
+                    <div class="newfunc-list">增加 EXUI 组件</div>
+                    <div class="newfunc-list">删除窗口移动时半透明</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">已知问题（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.06版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                    <div class="newversion">2.06</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">优化及增强主动防御</div>
+                    <div class="newfunc-list">拆分进程防御程序</div>
+                    <div class="newfunc-list">支持 Windows 7 系统</div>
+                    <div class="newfunc-list">全新更新系统</div>
+                    <div class="newfunc-list">新增卸载程序</div>
+                    <div class="newfunc-list">进程管理增加右键菜单</div>
+                    <div class="newfunc-list">主动防御终止进程增加提示</div>
+                    <div class="newfunc-list">更新关闭软件窗口</div>
+                    <div class="newfunc-list">更新图标</div>
+                    <div class="newfunc-list">新增高级设置（需特殊方法调出）</div>
+                    <div class="newfunc-list">语言包新增信息</div>
+                    <div class="newfunc-list">新增卸载程序</div>
+                    <div class="newfunc-list">全新选择文件夹窗口</div>
+                    <div class="newfunc-list">全新杀毒页面</div>
+                    <div class="newfunc-list">重构桌面扫描</div>
+                    <div class="newfunc-list">重构本地扫描（特征）</div>
+                    <div class="newfunc-list">增强脚本查杀（借鉴PYAS）</div>
+                    <div class="newfunc-list">支持随系统主题更改主题</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">在使用中文时文字显示可能会异常（已修复）</div>
+                    <div class="newfunc-list">组件错位（已修复）</div>
+                    <div class="newfunc-list">托盘菜单提示错误显示（已修复）</div>
+                    <div class="newfunc-list">进程管理关闭软件时即使按取消键也会关闭（已修复）</div>
+                    <div class="newfunc-list">无法删除病毒文件（已修复）</div>
+                    <div class="newfunc-title">注意事项：</div>
+                    <div class="newfunc-list">由于语言包修改，请重新选择自己的语言</div>
+                    <div class="newfunc-list">由于语言包修改，请替换配置文件</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.05版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                    <div class="newversion">2.05</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">选中按钮也会有悬停效果</div>
+                    <div class="newfunc-list">繁体中文</div>
+                    <div class="newfunc-list">拖动窗口时半透明（抄袭PYAS[doge]）</div>
+                    <div class="newfunc-list">文件粉碎</div>
+                    <div class="newfunc-list">全新关闭软件弹窗</div>
+                    <div class="newfunc-list">CPU占用优化</div>
+                    <div class="newfunc-list">更改快速扫描方式</div>
+                    <div class="newfunc-list">CPU占用管理</div>
+                    <div class="newfunc-list">MBR防护</div>
+                    <div class="newfunc-list">确定取消支持语言包</div>
+                    <div class="newfunc-list">脚本检测</div>
+                    <div class="newfunc-list">启动时重置杀毒设置</div>
+                    <div class="newfunc-list">后台扫描多线程</div>
+                    <div class="newfunc-list">部分组件支持unicode</div>
+                    <div class="newfunc-list">公用桌面后台扫描</div>
+                    <div class="newfunc-list">信息框支持深色模式</div>
+                    <div class="newfunc-list">修改UI布局</div>
+                    <div class="newfunc-list">升级信息框模块</div>
+                    <div class="newfunc-list">检测其它杀软的运行，如果检测到就会关闭主防，目前支持6款杀软</div>
+                    <div class="newfunc-list">由于网络库太容易误报，将改成“本地库”</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">在使用中文时文字显示可能会异常（修复一半）</div>
+                    <div class="newfunc-list">分配XXX字节内存失败（已修复）</div>
+                    <div class="newfunc-list">[紧急]病毒文件无法删除（已修复）</div>
+                    <div class="newfunc-list">多次显示同一个文件（已修复）</div>
+                    <div class="newfunc-list">使用任务管理器最大化（已修复）</div>
+                    <div class="newfunc-list">其他杀软可能会一直拦截启动项（已修复，感谢 @Winner365 的反馈）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.04版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                    <div class="newversion">2.04</div>
+                    <div class="newfunc-title">新功能：</div>
+                    <div class="newfunc-list">新增反馈按钮</div>
+                    <div class="newfunc-list">网络库结束测试</div>
+                    <div class="newfunc-list">侧边条使用非线性运动</div>
+                    <div class="newfunc-list">最小化和关闭按钮新增悬停提示文本</div>
+                    <div class="newfunc-list">侧边按钮新增悬停效果</div>
+                    <div class="newfunc-list">更新日志浏览框的内核现在改为MiniBilnk内核</div>
+                    <div class="newfunc-list">杀毒显示已扫描文件数</div>
+                    <div class="newfunc-list">主防大增强</div>
+                    <div class="newfunc-title">Bugs：</div>
+                    <div class="newfunc-list">在使用中文时文字显示可能会异常（未修复）</div>
+                    <div class="newfunc-list">语言包错误（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.03版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">2.03</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">进程管理新增搜索框</div>
+                        <div class="newfunc-list">杀毒界面输入框和浏览按钮大小修改</div>
+                        <div class="newfunc-list">系统盘扫描改为磁盘扫描</div>
+                        <div class="newfunc-list">添加参数，分别为Home、Antivirus、Tool、Settings和扫描的程序路径</div>
+                        <div class="newversion">Bugs：</div>
+                        <div class="newfunc-list">在使用中文时文字显示可能会异常（未修复）</div>
+                        <div class="newfunc-list">在启动时就弹窗不支持（已修复）</div>
+                        <div class="newfunc-list">在启动时就弹窗文件名错误（已修复）</div>
+                        <div class="newfunc-list">在切换语言后主页状态无法立即切换（已修复）</div>
+                        <div class="newfunc-list">最小化时无法检测更新（已修复）</div>
+                        <div class="newfunc-list">打开主窗口时没有检查更新（已修复）</div>
+                        <div class="newfunc-list">在启动时没有删除之前的杀毒目录记录（已修复）</div>
+                        <div class="newfunc-list">在启动时没有删除之前的正在查杀记录（已修复）</div>
+                        <div class="newfunc-list">在杀毒时返回会导致按钮错位（已修复）</div>
+                        <div class="newfunc-list">在杀毒时无法移动位置与按下按钮（已修复）</div>
+                        <div class="newfunc-list">在终止进程时刷新错误（已修复）</div>
+                        <div class="newfunc-list">软件打开时会重置一些内容（已修复）</div>
+                        <div class="newfunc-list">在未安装字体的设备上字体为宋体（已修复）</div>
+                        <div class="newfunc-list">有时读取配置会失败（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.02版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">2.02</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">托盘菜单支持深色模式</div>
+                        <div class="newfunc-list">托盘菜单增加设置菜单</div>
+                        <div class="newfunc-list">托盘图标更新</div>
+                        <div class="newfunc-list">添加文件名检测</div>
+                        <div class="newversion">Bugs</div>
+                        <div class="newfunc-list">在使用中文时文字显示可能会异常（未修复）</div>
+                        <div class="newfunc-list">语言包错误（已修复）</div>
+                        <div class="newfunc-list">在启动时就弹窗更新（已修复）</div>
+                        <div class="newfunc-list">无法检测更新（已修复）</div>
+                        <div class="newfunc-list">每一次打开会保留之前的配置（已修复）</div>
+                        <div class="newfunc-list">杀毒在启动时没有删除之前的记录（已修复）</div>
+                        <div class="newfunc-list">在清理垃圾页面无法返回（已修复）</div>
+                        <div class="newfunc-list">每一次打开会保留之前的位置（已修复）</div>
+                        <div class="newfunc-list">开始菜单错误（已修复）</div>
+                        <div class="newfunc-list">关闭后托盘图标残留（已修复）</div>
+                        <div class="newfunc-list">重新启动Windows文件资源管理器时托盘图标消失（已修复）</div>
+                        <div class="newfunc-list">在弹出不受支持弹窗时提示内容错误（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.01版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">2.01</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">助手功能回归</div>
+                        <div class="newfunc-list">主程序签名</div>
+                        <div class="newfunc-list">托盘菜单</div>
+                        <div class="newfunc-list">自动检查更新</div>
+                        <div class="newfunc-list">中文更名为简体中文</div>
+                        <div class="newfunc-list">[整活]微软式中文语言包</div>
+                        <div class="newfunc-title">Bugs：</div>
+                        <div class="newfunc-title">在使用中文时文字显示可能会异常（未修复）</div>
+                        <div class="newfunc-title">在侧边栏动画执行时再次单击其他图标会产生异常（已修复）</div>
+                        <div class="newfunc-title">在软件边框右边没有覆盖选择夹（已修复）</div>
+                        <div class="newfunc-title">语言包错误（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">2.00版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">2.00[项目重置]</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">更好的UI</div>
+                        <div class="newfunc-list">优化高速模式</div>
+                        <div class="newfunc-list">支持英文</div>
+                        <div class="newfunc-list">病毒库更新</div>
+                        <div class="newfunc-title">Bugs：</div>
+                        <div class="newfunc-list">在使用中文时文字显示可能会异常（未修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.53版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.53[因停电所以不予发布]</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">部分文字修改</div>
+                        <div class="newfunc-title">Bugs：</div>
+                        <div class="newfunc-list">易语言文字显示异常（未修复）</div>
+                        <div class="newfunc-list">查杀结果为0时没有细致化处理（已修复）</div>
+                    </div>
+                </div>
+                    </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.52版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.52</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">杀毒、工具、设置页面更新与增加图标</div>
+                        <div class="newfunc-list">杀毒UI更新</div>
+                        <div class="newfunc-list">工具UI更新</div>
+                        <div class="newfunc-title">Bugs：</div>
+                        <div class="newfunc-list">易语言文字显示异常（未修复）</div>
+                        <div class="newfunc-list">无法立即在主页显示状态（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.51版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.51</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">主页显示状态</div>
+                        <div class="newfunc-list">托盘菜单更新</div>
+                        <div class="newfunc-list">设置UI更新</div>
+                        <div class="newfunc-title">Bugs：</div>
+                        <div class="newfunc-list">易语言文字显示异常（未修复）</div>
+                        <div class="newfunc-list">软件部分像素闪烁背景色（已修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.50版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.50</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">起始页可个性化</div>
+                        <div class="newfunc-list">网络数据库查杀（测试）</div>
+                        <div class="newfunc-title">Bugs：</div>
+                        <div class="newfunc-list">易语言文字显示异常（未修复）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.31版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.31</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">UI更新</div>
+                        <div class="newfunc-list">高级设置</div>
+                        <div class="newfunc-list">MBR防护</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.3版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.3</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">修改配色</div>
+                        <div class="newfunc-list">增加引擎</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.21版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.21</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">UI更新</div>
+                        <div class="newfunc-list">垃圾清理</div>
+                        <div class="newfunc-list">文件粉碎</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.2版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.2</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">基础更新</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.1版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.1</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">关于界面</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.0版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">西格安全 1.0</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">改名为“西格安全”</div>
+                        <div class="newfunc-list">删除设置</div>
+                        <div class="newfunc-list">主动防御</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.0版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">1.0 非正式版</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">设置页面修改</div>
+                    </div>
+                </div>
+            </div>
+            <div class="history-version-item">
+                <div class="clickup">收起<span class="blue-up"></span></div>
+                <div class="history-version-item-title">1.0版本<span class="arrow"></span></div>
+                <div class="history-version-item-content">
+                    <div class="newfunc">
+                        <div class="newversion">碉堡杀毒 1.0 Beta</div>
+                        <div class="newfunc-title">新功能：</div>
+                        <div class="newfunc-list">基础内容</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bj-report-tryjs.min.js"></script>
+    <script>
+        window.tcssReport = function(hottag, domain) { /*点击流上报*/
+            if (typeof pgvSendClick == 'function') {
+                pgvSendClick({
+                    virtualDomain: domain || "tim.qq.com",
+                    hottag: hottag
+                });
+            }
+        };
+        tcssReport('tim.support.pv')
+        $('.history-version-item-title').click(function() {
+            $(this).parent('.history-version-item').find('.history-version-item-content').slideToggle('fast')
+            $(this).parent('.history-version-item').find('.clickup').toggleClass('show')
+            $(this).toggleClass('show')
+        })
+        $('.clickup').click(function() {
+            $(this).parent('.history-version-item').find('.history-version-item-content').slideToggle('fast')
+            $(this).parent('.history-version-item').find('.clickup').toggleClass('show')
+            $(this).parent('.history-version-item').find('.history-version-item-title').toggleClass('show')
+        })
+    </script>
+
+
+</body>

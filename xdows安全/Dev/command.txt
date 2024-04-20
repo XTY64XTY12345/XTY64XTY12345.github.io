@@ -1,1 +1,1 @@
-mshta vbscript:CreateObject("Wscript.Shell").popup("要显示的内容",7,"要显示的标题",64)(window.close)
+

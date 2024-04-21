@@ -1,1 +1,1 @@
-mshta vbscript:msgbox("Xdows Security 不再兼容 西格安全软件",64,"重要提示")(window.close)
+

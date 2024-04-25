@@ -2,12 +2,13 @@
 <html>
 <head>
     <title>验证码</title>
+<h1>z请进行验证后继续</h1>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
     <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
 </head>
-<body onload="function(res)">
-    <button id="TencentCaptcha" data-appid="2068666293" data-cbfn="callback" type="button">验证码</button>
+<body>
+    <button id="TencentCaptcha" data-appid="2068666293" data-cbfn="callback" type="button">开始验证</button>
     <script type="text/javascript">
         window.callback = function(res){
             console.log(res)

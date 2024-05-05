@@ -1,1 +1,1 @@
-mshta vbscript:msgbox("You are SB.",64,"cinema")(window.close)
+

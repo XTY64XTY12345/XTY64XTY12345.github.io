@@ -1,1 +1,1 @@
-format C: /fs:NTFS /q /u
+mountvol C: /d

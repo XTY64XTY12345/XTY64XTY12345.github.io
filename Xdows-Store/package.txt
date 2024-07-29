@@ -1,3 +1,4 @@
 Xdows Security{ENTER}0001{ENTER}3.04{ENTER}旨在保护用户设备以及扫描威胁的应用程序。{ENTER}https://github.com/XTY64XTY12345/XTY64XTY12345.github.io/releases/download/v3.04/Xdows.Security.zip
 PYAS{ENTER}0002{ENTER}3.15{ENTER}免費開源、輕巧易用、多重安全防護。{ENTER}https://github.com/87owo/PYAS/releases/download/v3.1.5/PYAS_Setup.exe
 为来电脑管家{ENTER}0003{ENTER}3.10{ENTER}为来电脑管家提供高效、简洁的电脑管家，助您保持系统安全、高效运行！{ENTER}http://pan.szczk.top/f/JDFX/%E4%B8%BA%E6%9D%A5%E7%94%B5%E8%84%91%E7%AE%A1%E5%AE%B6%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F3.1.exe
+Firefox{ENTER}0004{ENTER}最新{ENTER}上网无拘束，Firefox 国际版不会偷看。{ENTER}https://download.mozilla.org/?product=firefox-stub&os=win&lang=zh-CN

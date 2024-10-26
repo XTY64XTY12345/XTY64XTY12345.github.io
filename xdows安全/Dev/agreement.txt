@@ -1,7 +1,7 @@
 Xdows Security 用户协议
 尊敬的用户，欢迎您使用 Xdows Security。为了保障您的合法权益，请您在安装和使用 Xdows Security 前，仔细阅读以下协议内容。本协议是您与 Xdows Software（以下简称“我们”）之间关于 Xdows Security（以下简称“本软件”）使用许可及相关事项的约定。一旦您安装、复制、使用或使用本软件的源代码，即视为您已了解并同意以下条款。
 一、协议概述
-1. 本协议适用于 Xdows Security ，包括但不限于系统防护、杀毒、Xdows Tools 等功能。
+1. 本协议适用于 Xdows Security ，包括但不限于主动防御、病毒扫描、Xdows Tools 等功能。
 2. 本软件版权归属 Xdows Software 所有，我们保留对本协议的最终解释权。
 二、软件授权
 1. 我们授予您一项有限的、非独占的、不可转让的使用许可，您可以在一台计算机上安装、使用本软件。
